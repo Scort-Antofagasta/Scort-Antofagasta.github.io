@@ -971,4 +971,15 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
-/*# sourceMappingURL=style.css.map */
+
+/*#sourceMappingURL=style.css.map
+
+/* Media Queries */
+
+@media screen and (max-width: 412px){
+
+  .carousel-view{
+    margin-inline-start: 20px;
+  }
+  
+}

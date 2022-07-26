@@ -102,6 +102,14 @@ a:focus {
           flex-direction: column;
 }
 
+.carousel-view{
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  margin-inline-start: 700px;
+}
 #whatsapp {
   z-index: 9999;
   position: fixed;

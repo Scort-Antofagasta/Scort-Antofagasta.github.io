@@ -102,6 +102,13 @@ a:focus {
           flex-direction: column;
 }
 
+#whatsapp {
+  z-index: 9999;
+  position: fixed;
+  bottom: 15px;
+  right: 15px;
+}
+
 .bg-box {
   position: absolute;
   top: 0;

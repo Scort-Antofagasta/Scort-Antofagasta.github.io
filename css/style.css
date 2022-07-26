@@ -344,10 +344,6 @@ a:focus {
   
 }
 
-
-  
-
-
 .img-carrousel{
   border-radius: 20px;
   
@@ -976,10 +972,68 @@ a:focus {
 
 /* Media Queries */
 
-@media screen and (max-width: 412px){
+@media screen and (max-width: 375px){
 
   .carousel-view{
-    margin-inline-start: 20px;
+    margin-left: 2.5px;
+    
+  }
+  .img-carrousel{
+    border-radius: 20px;
+    width: 210px;
+    height: 210px;
+  }
+  
+}
+
+@media screen and (max-width: 414px){
+
+  .carousel-view{
+    margin-left: 2.5px;
+  }
+  .img-carrousel{
+    border-radius: 20px;
+    width: 210px;
+    height: 210px;
+  }
+  
+}
+
+@media screen and (max-width: 820px){
+
+  .carousel-view{
+    margin-left: 30px;
+  }
+  .img-carrousel{
+    border-radius: 20px;
+    width: 210px;
+    height: 210px;
+  }
+  
+}
+
+@media screen and (max-width: 912px){
+
+  .carousel-view{
+    margin-left: 30px;
+  }
+  .img-carrousel{
+    border-radius: 20px;
+    width: 210px;
+    height: 210px;
+  }
+  
+}
+
+@media screen and (max-width: 1024px){
+
+  .carousel-view{
+    margin-left: 30px;
+  }
+  .img-carrousel{
+    border-radius: 20px;
+    width: 210px;
+    height: 210px;
   }
   
 }

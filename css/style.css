@@ -102,6 +102,24 @@ a:focus {
           flex-direction: column;
 }
 
+/*icono de la cabecera*/
+#hamnav {
+  width: 100%;
+  background: #000;
+}
+
+#navbarSupportedContent { display: flex; }
+#navbarSupportedContent a {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+}
+#hamnav label, #hamburger { display: none; }
+
+/* end icono de la cabecera*/
+
 .carousel-view{
   display: flex;
   -webkit-box-pack: center;
@@ -972,68 +990,44 @@ a:focus {
 
 /* Media Queries */
 
-@media screen and (max-width: 375px){
-
-  .carousel-view{
-    margin-left: 2.5px;
-    
-  }
-  .img-carrousel{
-    border-radius: 20px;
-    width: 210px;
-    height: 210px;
-  }
-  
-}
-
-@media screen and (max-width: 414px){
-
-  .carousel-view{
-    margin-left: 2.5px;
-  }
-  .img-carrousel{
-    border-radius: 20px;
-    width: 210px;
-    height: 210px;
-  }
-  
-}
-
-@media screen and (max-width: 820px){
+@media screen and (max-width: 952px){
 
   .carousel-view{
     margin-left: 30px;
   }
   .img-carrousel{
-    border-radius: 20px;
     width: 210px;
     height: 210px;
   }
   
 }
 
-@media screen and (max-width: 912px){
+@media screen and (max-width: 768px){
 
   .carousel-view{
     margin-left: 30px;
   }
   .img-carrousel{
-    border-radius: 20px;
     width: 210px;
     height: 210px;
   }
-  
-}
-
-@media screen and (max-width: 1024px){
-
-  .carousel-view{
-    margin-left: 30px;
+  #navbarSupportedContent a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
   }
-  .img-carrousel{
-    border-radius: 20px;
-    width: 210px;
-    height: 210px;
+
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
   }
-  
+
+  /* (C) TOGGLE SHOW/HIDE MENU */
+  #navbarSupportedContent { display: none; }
+  #hamnav input:checked ~ #navbarSupportedContent { display: block; }
 }

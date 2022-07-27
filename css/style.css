@@ -1020,11 +1020,11 @@ a:focus {
 
   #hamnav label { 
     display: inline-block; 
-    color: white;
-    background: #a02620;
+    color: rgb(245, 150, 9);
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
+    cursor: pointer;
   }
 
   /* (C) TOGGLE SHOW/HIDE MENU */
